@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - CREATE OUR RESOURCES
 </p>
-1. Create Two Virtual Machine within the same Resource Group (RG-lab).  
+1. Create a Resource Group (RG-lab) with Virtual Machine.  
 <img src="https://i.imgur.com/Ggj0Tjw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
      a. Windows 10 Virtual Machine (VM1).
@@ -95,7 +95,7 @@ d. Back in the Windows 10 Virtual Machine (VM1), observe the ICMP traffic in Wir
 <img src="https://i.imgur.com/KGgbKB3.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/AHScBgS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-e. Stop the ping activity (Ctrl+C).
+e. Stop the Ping activity with the command (Ctrl+C).
 </p>
 <br />
 - OBSERVE SSH TRAFFIC
