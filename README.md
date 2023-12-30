@@ -105,11 +105,17 @@ e. Stop the Ping activity with the command (Ctrl+C).
 </p>
 9. From the Windows 10 Virtual Machine (VM1), "SSH into" the Linux (Ubuntu) Virtual Machine (via its private IP address 10.0.0.5).
 </p>
-a. 
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0i6P8KE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-b.
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+a. Observe SSH traffic.
+<img src="https://i.imgur.com/l8MdLEw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+b. Type commands (id, uname, pwd) into the Linux SSH connection and observe SSH traffic spam in Wireshark.
+<img src="https://i.imgur.com/qQLhrje.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/299YDcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+c. Exit the SSH connection by typing "exit" and pressing (Enter).
+<img src="https://i.imgur.com/MYa006x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 - OBSERVE DHCP TRAFFIC
